@@ -18,8 +18,8 @@ module.exports = {
             slug: `/about`,
           },
           {
-            title: `Projects`,
-            slug: `/projects`
+            title: `Works`,
+            slug: `/works`
           },
         ],
         externalLinks: [{
@@ -27,8 +27,12 @@ module.exports = {
             url: `https://www.linkedin.com/in/kirbyjfernandez/`,
           },
           {
+            name: `Twitter`,
+            url: `https://twitter.com/kirbyjamesf`,
+          },
+          {
             name: `GitHub`,
-            url: `https://github.com/kirbygit`,
+            url: `https://github.com/kirbygit`
           },
         ],
       },

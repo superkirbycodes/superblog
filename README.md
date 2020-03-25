@@ -169,16 +169,33 @@ slug: "/about"
 ---
 ```
 
-#### Changing the "Hero" text
+#### Changing and the "Hero" text
 
 To edit the hero text ("Hi, I'm Lupin...), create a file at `src/@lekoarts/gatsby-theme-minimal-blog/texts/hero.mdx` to edit the text.
+
+Example:
+
+```md
+<Text sx={{ fontSize: [4, 5, 6], fontWeight: `bold`, color: `heading` }}>
+  Kumusta.
+</Text>
+```
 
 #### Changing the "Projects" part
 
 To edit the projects part below "Latest posts", create a file at `src/@lekoarts/gatsby-theme-minimal-blog/texts/bottom.mdx` to edit the contents.
+
+Example:
+
+```md
+<Title text="Projects" />
+
+- [Project](project-url)
+```
 
 ### Change your `static` folder
 
 The `static` folder contains the icons, social media images and robots.txt. Don't forget to change these files, too!
 
 # Super Blog
+
